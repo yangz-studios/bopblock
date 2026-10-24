@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BOPBLOCK!</title>
+<meta name="description" content="BOPBLOCK! is a calm block puzzle by YANGZstudios. Drag, drop and bop.">
+<style>
+  :root { --bg:#16211e; --panel:#22312c; --text:#eef0e8; --muted:#a9b8b1; --accent:#e9b48c; --mint:#8fd1b6; }
+  * { box-sizing:border-box; }
+  body { margin:0; background:radial-gradient(circle at 30% 20%, #1f4a43 0%, var(--bg) 55%); color:var(--text); font:17px/1.6 system-ui,-apple-system,"Segoe UI",Roboto,sans-serif; min-height:100vh; }
+  main { max-width:760px; margin:0 auto; padding:48px 16px 64px; text-align:center; }
+  img.icon { width:160px; height:160px; border-radius:36px; box-shadow:0 12px 40px rgba(0,0,0,.35); }
+  h1 { font-size:2.6rem; margin:24px 0 4px; letter-spacing:.5px; }
+  .tag { color:var(--accent); font-size:1.2rem; margin:0 0 28px; }
+  section { background:var(--panel); border-radius:16px; padding:20px 24px; margin:16px 0; text-align:left; }
+  ul { padding-left:20px; margin:8px 0; }
+  .muted { color:var(--muted); font-size:.95rem; }
+  a { color:var(--accent); }
+  footer { margin-top:32px; color:var(--muted); font-size:.9rem; }
+</style>
+</head>
+<body>
+<main>
+  <img class="icon" src="data:image/jpeg;base64,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" alt="BOPBLOCK! icon">
+  <h1>BOPBLOCK!</h1>
+  <p class="tag">Make some space. BOPBLOCK is here!</p>
+
+  <section>
+    <p>A calm block puzzle where every cleared line feels good. Drag pieces onto the 8×8 board and fill a row or column to clear it with a satisfying bop.</p>
+    <ul>
+      <li>Simple to learn: drag, drop, clear</li>
+      <li>No timers. Play at your own pace</li>
+      <li>Combos and clear-board bonuses</li>
+      <li>Your run saves automatically, and it works offline</li>
+    </ul>
+    <p class="muted">Free and supported by ads. No accounts and no in-app purchases. Coming soon to Google Play.</p>
+  </section>
+
+  <section>
+    <p><strong>Contact:</strong> <a href="mailto:yangzstudios@gmail.com">yangzstudios@gmail.com</a><br>
+    <strong>Privacy:</strong> <a href="privacy-policy.html">BOPBLOCK! Privacy Policy</a></p>
+  </section>
+
+  <footer>© 2026 YANGZstudios</footer>
+</main>
+</body>
+</html>
